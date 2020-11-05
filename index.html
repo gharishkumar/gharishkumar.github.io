@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" >
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,23 +27,7 @@ footer {
 .container {
   margin: 70px 20px;
 }
-</style>
-
-  <script>
-  window.console = window.console || function(t) {};
-</script>
-
-  
-  
-  <script>
-  if (document.location.search.match(/type=embed/gi)) {
-    window.parent.postMessage("resize", "*");
-  }
-</script>
-
-
 </head>
-
 <body translate="no" >
 <div id="fullpage">
   <section class="section page">
@@ -63,7 +46,8 @@ footer {
   <section class="section page">
     <div class="container">
       <p>Contact me on Whatsapp</p>
-      <p>+919865788557</p>
+      <a href="https://api.whatsapp.com/send?phone=919865788557&text=Hi%2C+May+I+know+more+about+you...">
+      <p>+919865788557</p></a>
     </div>
   </section>
   <section class="section page">
@@ -79,7 +63,6 @@ $(function () {
   $('#fullpage').fullpage({
     sectionSelector: '.page',
     scrollOverflow: true });
-
 });
 </script>
 </body>
