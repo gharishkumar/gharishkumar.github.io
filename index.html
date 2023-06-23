@@ -34,6 +34,11 @@ footer {
   opacity: 1 !important;
   z-index: 999 !important;
 }
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgba(64, 30, 255, 0.329);
+}
 .container {
   margin: 70px 20px;
 }
@@ -42,10 +47,15 @@ footer {
 <body translate="no" >
 <div id="fullpage">
   <section class="section page">
+    <div class="flex-container">
     <div class="container">
       <p>It's Harish</p>
       <p>Welcome to my page</p>
       <p>Swipe down...!</p>
+    </div>
+    <div class="container">
+      <img src="dp.png" alt="Dp">
+    </div>
     </div>
   </section>
   <section class="section page">
