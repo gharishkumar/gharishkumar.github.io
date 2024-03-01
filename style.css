@@ -120,6 +120,10 @@ a:hover {
 
 .menu-links.open {
   max-height: 300px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
 }
 
 .hamburger-icon.open span:first-child {
