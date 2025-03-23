@@ -1,0 +1,34 @@
+{
+    "expertise": [
+      {
+        "category": "Electrical & Electronics",
+        "skills": [
+          "System Verilog (Design) - Experienced",
+          "System Verilog (Verification) - Intermediate",
+          "UVM - Intermediate",
+          "SPICE - Intermediate",
+          "VHDL - Basic"
+        ]
+      },
+      {
+        "category": "Tools",
+        "skills": [
+          "Vivado - Experienced",
+          "Questa Sim - Intermediate",
+          "Quartus - Basic",
+          "Yosys - Intermediate"
+        ]
+      },
+      {
+        "category": "Computer Science",
+        "skills": [
+          "C/C++ - Experienced",
+          "Python - Experienced",
+          "Java - Intermediate",
+          "Linux - Experienced",
+          "Shell Scripting - Experienced",
+          "Git - Intermediate"
+        ]
+      }
+    ]
+  }

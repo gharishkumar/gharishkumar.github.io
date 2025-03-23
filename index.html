@@ -1,308 +1,197 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Harish Kumar | Portfolio</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./mediaqueries.css">
-  </head>
-  <body>
-    <nav id="desktop-nav">
-      <div class="logo">Profile</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">Profile</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-      </div>
-    </nav>
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="./profile-pic.jpg" style="border-radius: 50%" alt="Harish profile picture">
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Harish Kumar</h1>
-        <p class="section__text__p2">Engineer</p>
-        <div class="btn-container">
-          <button class="btn btn-color-2" onclick="window.open(&#39;./Resume.pdf&#39;)">
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href=&#39;./#contact&#39;">
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container">
-          <img src="./linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href=&#39;https://linkedin.com/&#39;">
-          <img src="./github.png" alt="My Github profile" class="icon" onclick="location.href=&#39;https://github.com/&#39;">
-        </div>
-      </div>
-    </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="text-container">
-              <p>
-                VLSI Design Engineer with a passion for the semiconductor industry. Proven ability to lead and manage teams to design and develop innovative VLSI circuits that meet the needs of society and exceed industry standards. Strong technical skills in computer-aided design (CAD) tools, analyzing data, developing algorithms, creating mathematical models (MATLAB), and simulation. Experienced in working with a variety of materials and manufacturing processes. 
-              </p>
-            </div>
-            <!-- <div class="details-container">
-              <img src="./experience.png" alt="Experience icon" class="icon">
-              <h3>Experience</h3>
-              <p>2+ years <br>Frontend Development</p>
-            </div> -->
-            <div class="details-container">
-              <img src="./education.png" alt="Education icon" class="icon">
-              <h3>Bachelors Degree</h3>
-              <p>BE.Electrical and Electronics Engineering.</p>
-              <p>Ramco Institute of Technology</p>
-              <p>Anna University</p>
-            </div>
-            <div class="details-container">
-              <img src="./education.png" alt="Education icon" class="icon">
-              <h3>Diploma Program</h3>
-              <p>PG Diploma VLSI</p>
-              <p>ACTS, CDAC</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img src="./arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href=&#39;./#experience&#39;">
-    </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Computer Science</h2>
-            <div class="article-container">
-              <article>
-                <img src="./checkmark.png" alt="Experience icon" class="icon">
-                <div>
-                  <h3>C/C++</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img src="./checkmark.png" alt="Experience icon" class="icon">
-                <div>
-                  <h3>Python</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img src="./checkmark.png" alt="Experience icon" class="icon">
-                <div>
-                  <h3>Java</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img src="./checkmark.png" alt="Experience icon" class="icon">
-                <div>
-                  <h3>Linux</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img src="./checkmark.png" alt="Experience icon" class="icon">
-                <div>
-                  <h3>Shell scripting</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img src="./checkmark.png" alt="Experience icon" class="icon">
-                <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Electrical and electronics</h2>
-            <div class="article-container">
-              <article>
-                <img src="./checkmark.png" alt="Experience icon" class="icon">
-                <div>
-                  <h3>System Verilog</h3>
-                  <h2>Design</h2>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img src="./checkmark.png" alt="Experience icon" class="icon">
-                <div>
-                  <h3>System Verilog</h3>
-                  <h2>Verification</h2>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img src="./checkmark.png" alt="Experience icon" class="icon">
-                <div>
-                  <h3>UVM</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img src="./checkmark.png" alt="Experience icon" class="icon">
-                <div>
-                  <h3>SPICE</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img src="./checkmark.png" alt="Experience icon" class="icon">
-                <div>
-                  <h3>VHDL</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Tools</h2>
-            <div class="article-container">
-              <article>
-                <img src="./checkmark.png" alt="Experience icon" class="icon">
-                <div>
-                  <h3>Vivado</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img src="./checkmark.png" alt="Experience icon" class="icon">
-                <div>
-                  <h3>Questa sim</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img src="./checkmark.png" alt="Experience icon" class="icon">
-                <div>
-                  <h3>Quartus</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img src="./checkmark.png" alt="Experience icon" class="icon">
-                <div>
-                  <h3>Yosys</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img src="./arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href=&#39;./#projects&#39;">
-    </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img src="./project-1.jpg" alt="Project 1" class="project-img">
-            </div>
-            <h2 class="experience-sub-title project-title">Mini Project</h2>
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href=&#39;https://www.ritrjpm.ac.in/images/pdf/Magazine%2016-17.pdf&#39;">
-                Github
-              </button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href=&#39;https://github.com/&#39;">
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img src="./project-2.jpg" alt="Project 2" class="project-img">
-            </div>
-            <h2 class="experience-sub-title project-title">ESVC</h2>
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href=&#39;https://github.com/&#39;">
-                Github
-              </button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href=&#39;https://github.com/&#39;">
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img src="./project-3.jpg" alt="Project 3" class="project-img">
-            </div>
-            <h2 class="experience-sub-title project-title">SUVC</h2>
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href=&#39;https://github.com/&#39;">
-                Github
-              </button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href=&#39;https://github.com/&#39;">
-                Live Demo
-              </button>
-            </div>
-          </div>
-          
-          
-        </div>
-      </div>
-      <img src="./arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href=&#39;./#contact&#39;">
-    </section>
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img src="./email.png" alt="Email icon" class="icon contact-icon email-icon">
-          <p><a href="mailto:gharishkumar19998@gmail.com">gharishkumar1998@gmail.com</a></p>
-        </div>
-        <!-- <div class="contact-info-container">
-          <img src="./linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
-          <p><a href="https://www.linkedin.com/">LinkedIn</a></p>
-        </div> -->
-      </div>
-    </section>
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      <p>Copyright © 2023 Harish. All Rights Reserved.</p>
-    </footer>
-    <script src="./script.js"></script>
-  
+    <link rel="stylesheet" href="./keyframes.css">
+</head>
 
-</body></html>
+
+<body>
+
+    <div class="parallax">
+        <div class="parallax__group">
+
+          <!-- <div class="parallax__layer parallax__layer--back"> -->
+              <!-- Background SVG -->
+              <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"> -->
+                  <!-- <rect width="800" height="600" fill="#87CEEB"/> -->
+                  <!-- Additional background elements -->
+              <!-- </svg> -->
+          <!-- </div> -->
+
+          <!-- <div class="parallax__layer parallax__layer--base1"> -->
+              <!-- Foreground SVG -->
+              <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"> -->
+                  <!-- <circle cx="400" cy="300" r="50" fill="#FFD700"/> -->
+                  <!-- Additional foreground elements -->
+              <!-- </svg> -->
+          <!-- </div> -->
+          
+          <div class="parallax__layer parallax__layer--base2">
+            <!-- Foreground SVG -->
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"> -->
+                <!-- <circle cx="" cy="150" r="25" fill="#FF0770"/> -->
+                <!-- Additional foreground elements -->
+            <!-- </svg> -->
+            <svg width="200" height="200" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="vlsiTile" width="100" height="100" patternUnits="userSpaceOnUse">
+                        <!-- Flip-Flop -->
+                        <rect x="10" y="10" width="30" height="30" stroke="black" stroke-width="2" fill="none" opacity="0.2"/>
+                        <text x="15" y="28" font-size="12" font-family="Arial" fill="black" opacity="0.2">FF</text>
+                        <line x1="10" y1="30" x2="15" y2="33" stroke="black" stroke-width="2" opacity="0.2"/>
+                        <line x1="10" y1="36" x2="15" y2="33" stroke="black" stroke-width="2" opacity="0.2"/>
+                        
+                        <!-- Mux -->
+                        <polygon points="60,10 90,30 90,70 60,90" stroke="black" stroke-width="2" fill="none" opacity="0.2"/>
+                        <text x="63" y="52" font-size="11" font-family="Arial" fill="black" opacity="0.2">MUX</text>
+                        
+                        <!-- LUT -->
+                        <text x="15" y="83" font-size="12" font-family="Arial" fill="black" opacity="0.2">LUT</text>
+                        <rect x="10" y="65" width="30" height="30" stroke="black" stroke-width="2" fill="none" opacity="0.2"/>
+            
+                        <!-- Connecting lines -->
+                        <line x1="40" y1="25" x2="60" y2="25" stroke="black" stroke-width="2" opacity="0.2"/>
+                        <line x1="75" y1="80" x2="75" y2="100" stroke="black" stroke-width="2" opacity="0.2"/>
+                        <line x1="40" y1="75" x2="60" y2="75" stroke="black" stroke-width="2" opacity="0.2"/>
+                        <line x1="90" y1="50" x2="100" y2="50" stroke="black" stroke-width="2" opacity="0.2"/>
+                        <line x1="0" y1="15" x2="10" y2="15" stroke="black" stroke-width="2" opacity="0.2"/>
+                        <line x1="0" y1="33" x2="10" y2="33" stroke="black" stroke-width="2" opacity="0.2"/>
+                        <line x1="0" y1="71" x2="10" y2="71" stroke="black" stroke-width="2" opacity="0.2"/>
+                        <line x1="0" y1="77" x2="10" y2="77" stroke="black" stroke-width="2" opacity="0.2"/>
+                        <line x1="0" y1="83" x2="10" y2="83" stroke="black" stroke-width="2" opacity="0.2"/>
+                        <line x1="0" y1="89" x2="10" y2="89" stroke="black" stroke-width="2" opacity="0.2"/>
+                    </pattern>
+                </defs>
+          
+              <!-- Apply the tileable pattern with transparency -->
+              <rect width="800" height="800" x="-200" y="-200" id="svg-bg" fill="url(#vlsiTile)" opacity="0.2"/>
+          </svg>
+          
+        </div>
+
+        <!-- Navigation -->
+        <nav id="desktop-nav">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Portfolio</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" id="menu-toggle" onclick="toggleMenu()" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="menu-links" id="mobile-menu" onclick="toggleMenu()">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#expertise">Expertise</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Profile Section -->
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="./profile-pic.jpg" alt="Harish Kumar Profile Picture" class="profile-img">
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">Harish Kumar</h1>
+                <p class="section__text__p2">VLSI Design Engineer</p>
+                <p class="section__text__p2">CDAC Bengaluru</p>
+                <div class="btn-container">
+                    <a href="./Resume.pdf" class="btn btn-color-2" download>Download CV</a>
+                    <a href="#contact" class="btn btn-color-1">Contact Info</a>
+                </div>
+                <div id="socials-container">
+                    <a href="https://github.com/gharishkumar" aria-label="GitHub Profile">
+                        <img src="./github.png" alt="GitHub" class="icon">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <p class="section__text__p1">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+            <br>
+            <div class="about-details-container">
+                <!-- <p>VLSI Design Engineer, CDAC Bengaluru.</p> -->
+                <br>
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./education.png" alt="Education Icon" class="icon">
+                        <h3>PG Diploma Program</h3>
+                        <p>VLSI Design, ACTS, CDAC Pune</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./education.png" alt="Education Icon" class="icon">
+                        <h3>Bachelor's Degree</h3>
+                        <p>BE Electrical and Electronics Engineering</p>
+                        <p>Ramco Institute of Technology,</p>
+                        <p>Anna University, Chennai</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Expertise Section -->
+        <section id="expertise">
+          <p class="section__text__p1">Explore My</p>
+          <h1 class="title">Expertise</h1>
+          <br>
+          <div class="expertise-details-container" id="expertise-container">
+              <!-- Content will be dynamically inserted here -->
+          </div>
+      </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+          <p class="section__text__p1">Browse My Recent</p>
+          <h1 class="title">Projects</h1>
+          <br>
+          <div class="expertise-details-container" id="projects-container">
+              <!-- Content will be dynamically inserted here -->
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" style="height: 10vh;">
+            <p class="section__text__p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <br>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <p>Email: <a href="mailto:gharishkumar1998@gmail.com">gharishkumar1998@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <p>Mobile: <a href="tel:+919865788557">+91 9865788557</a></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>Copyright &copy; 2025 Harish Kumar. All Rights Reserved.</p>
+        </footer>
+
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

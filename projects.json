@@ -1,0 +1,34 @@
+{
+    "projects": [
+      {
+        "title": "Matrix Multipiler",
+        "image": "./project-cdac.jpg",
+        "githubLink": "https://github.com/gharishkumar/matrix_multiplier",
+        "descriptionLink": "https://github.com/gharishkumar/matrix_multiplier"
+      },
+      {
+        "title": "Bit sliceable ALU",
+        "image": "./project-hdlss.png",
+        "githubLink": "https://github.com/gharishkumar/hdlss_lab",
+        "descriptionLink": "https://github.com/gharishkumar/hdlss_lab"
+      },
+      {
+        "title": "Mini Project",
+        "image": "./project-1.jpg",
+        "githubLink": "https://www.ritrjpm.ac.in/images/pdf/Magazine%2016-17.pdf",
+        "descriptionLink": "https://github.com/gharishkumar/"
+      },
+      {
+        "title": "ESVC",
+        "image": "./project-2.jpg",
+        "githubLink": "https://github.com/gharishkumar/",
+        "descriptionLink": "https://github.com/gharishkumar/"
+      },
+      {
+        "title": "SUVC",
+        "image": "./project-3.jpg",
+        "githubLink": "https://github.com/gharishkumar/",
+        "descriptionLink": "https://github.com/gharishkumar/"
+      }
+    ]
+  }
